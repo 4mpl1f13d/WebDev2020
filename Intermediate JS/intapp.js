@@ -153,17 +153,31 @@
 // }
 
 // -- 9.15 Control Statements and For loops
-function BottlesOfBeer() {      
-        for (i = 99; i >= 1; i--){
-                if  (i <= 99) {
-                     console.log(+i+ " bottles of beer on the wall, " + i + " bottles of beer. Take 1 down pass it around, " + (i - 1) + " bottles of beer on the wall."); 
-                } 
-                else if(i === 1) {
-                     console.log(+i+ " bottle of beer on the wall, " + i + " bottle of beer. Take 1 down pass it around, " + (i--) + " bottles of beer on the wall.");
-                } 
-        }
-         
-           console.log("No bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.");
-                
-        }
- 
+// function BottlesOfBeer() {      
+//         for (i = 99; i >= 1; i--){
+//                 if  (i <= 99) {
+//                      console.log(+i+ " bottles of beer on the wall, " + i + " bottles of beer. Take 1 down pass it around, " + (i - 1) + " bottles of beer on the wall."); 
+//                 } 
+//                 else if(i === 1) {
+//                      console.log(+i+ " bottle of beer on the wall, " + i + " bottle of beer. Take 1 down pass it around, " + (i--) + " bottles of beer on the wall.");
+//                 } 
+//         }
+
+//            console.log("No bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.");
+
+//         }
+
+
+// -- 9.15 Fibonacci Exercise
+     // var fibonacci_series = function (n) {
+     //      if (n === 1) {
+     //           return [0, 1];
+     //      }
+     //      else {
+     //           var array = fibonacci_series(n - 1);
+     //           array.push(array[array.length - 1] + array[array.length - 2]);
+     //           return array;
+     //      }
+     // };
+     // console.log(fibonacci_series(8));
+
