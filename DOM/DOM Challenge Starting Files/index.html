@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- To manipulate the HTML you have to select the child elements... FOR EXAMPLE: document.firstElementChild.lastElementChild; will select the body... -->
+  <body>
+    <h1 id="title">Hello</h1>
+    <a href="https://www.google.com">Google</a>
+    <input type="checkbox" />
+
+    <!-- When selecting single element you will still have to set a value to the array..... FOR EXAMPLE: document.getElementsByClassName("btn")[0].style.color="red"; -->
+    <button class="btn">Click Me</button>
+
+    <ul id="list">
+      <li class="item">
+        <!-- Using DOM update the color of this LI to red.... EXAMPLE: document.querySelector("li a").style.color="red";
+          document.querySelectorAll("#list .item")[0].style.color="red" will only change the bullet
+-->
+        <a href="https://www.google.com">Google</a>
+      </li>
+      <li class="item">Second</li>
+      <!-- Challenge was to select the third LI and change to  your name using only DOM manipulation -->
+      <!-- ANSWER: document.getElementsByTagName("li")[2].innerText="Jeremy"; -->
+      <li class="item">Third</li>
+    </ul>
+    <!-- When duplicating the UL above for testing... the 3rd li shows as li[6] -->
+
+  </body>
+
+  <footer>
+    <script src="index.js"></script>
+  </footer>
+
+</html>

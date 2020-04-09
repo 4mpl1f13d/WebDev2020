@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- DOM allows you to manipulate the website on the fly without re-writing the site itself -->
+    <title>DOM Example Website</title>
+  </head>
+
+  <!-- 1. You could include JS as body attribute Not ideal as this is not good form for an alert -->
+  <!-- <body onload="alert('Hello');"> -->
+  <body>
+    <h1>Hello</h1>
+
+    <!-- 2. You could include JS as script attribute-->
+    <!-- <script>
+      alert("Hello");
+    </script> -->
+
+    <input type="checkbox" />
+
+    <button style=":active: color:red;">Click Me</button>
+
+    <ul>
+      <li class="list">
+        <a href="https://www.google.com">Google</a>
+      </li>
+      <li class="list">Second</li>
+      <li class="list">Third</li>
+    </ul>
+
+    <!-- 3. You can also link the JS to an *.js file -->
+    <script src="index.js"></script>
+  </body>
+</html>
